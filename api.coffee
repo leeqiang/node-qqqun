@@ -30,12 +30,21 @@ class OpenAPIV3
     # 调用接口，并将数据格式转化成json
     # 只需要传入pf, openid, openkey等参数即可，不需要传入sig
 
+    if typeof method is 'function'
+      next = method
+      method = 'get'
+      protocol = 'http'
+
+    if typeof protocol is 'function'
+      next = protocol
+      protocol = 'http'
+
     params.appid = @_appId
     params.format = 'json'
 
     startTime = @_statApi.getTime()
     try
-      @_api.open(method, urlPath, params, protocol, (data)->
+      @_api.open(urlPath, params, method, protocol, (data)->
         data = JSON.parse(data)
         if @_isStat is true
           statParams = {}
@@ -51,7 +60,7 @@ class OpenAPIV3
           else statParams.rc = '-123456'
 
           @_statApi.statReport(@_statUrl, startTime, statParams)
-        return next(JSON.parse(data))
+        return next(data)
       )
     catch error
       return {'ret': OPEN_HTTP_TRANSLATE_ERROR, 'msg': error }
