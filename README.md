@@ -1,7 +1,7 @@
 nodejs-sdk-v3
 =============
 
-##腾讯开放API V3 CoffeeScript - SDK
+##腾讯开放API V3 Nodejs - SDK
 
 ##文件结构
  - lib/signature.js
