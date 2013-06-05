@@ -1,7 +1,6 @@
-Nodejs-SDK-QQOpenAPIV3
-=============
 
-##Tecent API V3 - Nodejs SDK
+Tencent API V3 - Nodejs SDK
+===========
 
 ##Install
 ```
