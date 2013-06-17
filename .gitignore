@@ -9,6 +9,7 @@ lib-cov
 
 pids
 logs
+coffee
 results
 
 npm-debug.log
