@@ -1,6 +1,6 @@
 {
   "name": "openapiv3",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "author":{
 	  "name": "Lee qiang",
 	  "email": "qiang@teambition.com"
@@ -14,8 +14,5 @@
   "repository": {
 	  "type": "git",
 	  "url": "https://github.com/leeqiang/Nodejs-SDK-OpenAPIV3.git"
-  },
-  "engines": {
-	"node": "0.8.x"
   }
 }

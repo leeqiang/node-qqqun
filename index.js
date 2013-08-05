@@ -1,1 +1,1 @@
-exports.OpenAPIV3 = require('./lib/api');
+module.exports = require('./lib/api');
