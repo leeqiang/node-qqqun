@@ -1,18 +1,18 @@
 
-Tencent API V3 - Nodejs SDK
+Tencent API V3 - Nodejs SDK for QQGroup
 ===========
 
 ##Install
 ```
-npm install openapiv3
+npm install qun
 ```
 
 ##How To Use
 ```
-var API = require('openapiv3');
-var OpenAPI = new API(appId, appKey, serverIp);
+var QunApi = require('qun');
+var Qun = new QunApi(appId, appKey, serverIp);
 
-OpenAPI.call(apiPath, {}, 'get', 'http', function(result){
+Qun.call(apiPath, {}, 'get', 'http', function(result){
     // method and protocol is optional, default 'get', 'http',
     // return object
 })

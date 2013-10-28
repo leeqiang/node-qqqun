@@ -1,6 +1,7 @@
 {
-  "name": "openapiv3",
-  "version": "0.1.5",
+  "name": "qun",
+  "oldname": "openapiv3",
+  "version": "0.1.6",
   "author":{
 	  "name": "Lee qiang",
 	  "email": "qiang@teambition.com"
@@ -8,11 +9,14 @@
   "keywords":[
 	  "qq open api v3",
 	  "openapi",
-	  "teambition"
+	  "teambition",
+          "qq qun",
+          "qqgroup",
+          "qun"
   ],
   "main": "index.js",
   "repository": {
 	  "type": "git",
-	  "url": "https://github.com/leeqiang/Nodejs-SDK-OpenAPIV3.git"
+	  "url": "https://github.com/leeqiang/node-qqqun.git"
   }
 }
