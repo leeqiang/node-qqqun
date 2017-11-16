@@ -2,12 +2,12 @@
 Tencent API V3 - Nodejs SDK for QQGroup
 ===========
 
-##Install
+## Install
 ```
 npm install qun
 ```
 
-##How To Use
+## How To Use
 ```
 var QunApi = require('qun');
 var Qun = new QunApi(appId, appKey, serverIp);
@@ -17,6 +17,3 @@ Qun.call(apiPath, {}, 'get', 'http', function(result){
     // return object
 })
 ```
-##Contact
-
-mailto:lee@susworld.com.
