@@ -1,22 +1,22 @@
 {
   "name": "qun",
   "oldname": "openapiv3",
-  "version": "0.1.6",
-  "author":{
-	  "name": "Lee qiang",
-	  "email": "qiang@teambition.com"
+  "version": "1.0.0",
+  "author": {
+    "name": "Lee qiang",
+    "email": "qiang@teambition.com"
   },
-  "keywords":[
-	  "qq open api v3",
-	  "openapi",
-	  "teambition",
-          "qq qun",
-          "qqgroup",
-          "qun"
+  "keywords": [
+    "qq open api v3",
+    "openapi",
+    "teambition",
+    "qq qun",
+    "qqgroup",
+    "qun"
   ],
   "main": "index.js",
   "repository": {
-	  "type": "git",
-	  "url": "https://github.com/leeqiang/node-qqqun.git"
+    "type": "git",
+    "url": "https://github.com/leeqiang/node-qqqun.git"
   }
 }
