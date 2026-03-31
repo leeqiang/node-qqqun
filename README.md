@@ -17,3 +17,8 @@ Qun.call(apiPath, {}, 'get', 'http', function(result){
     // return object
 })
 ```
+
+
+## Contact
+
+mailto: 7695083@qq.com
